@@ -11,14 +11,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func enter2(_ sender: AnyObject) {
-        //带上UIButton的名称做参数
-        self.performSegue(withIdentifier: "toTab", sender: (sender as? UIButton)?.titleLabel?.text)
-    }
-    @IBAction func enter1(_ sender: AnyObject) {
-        
-        self.performSegue(withIdentifier: "toTab", sender: (sender as? UIButton)?.titleLabel?.text)
-    }
+//    @IBAction func enter2(_ sender: AnyObject) {
+//        //带上UIButton的名称做参数
+//        self.performSegue(withIdentifier: "toTab", sender: (sender as? UIButton)?.titleLabel?.text)
+//    }
+//    @IBAction func enter1(_ sender: AnyObject) {
+//        
+//        self.performSegue(withIdentifier: "toTab", sender: (sender as? UIButton)?.titleLabel?.text)
+//    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let myButton = sender as? UIButton
