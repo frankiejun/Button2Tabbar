@@ -21,21 +21,21 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print(sender as! String)
-        if segue.identifier == "toTab" {
-            if let name = sender as? String {
-                print(name)
-                if(name == "进入页面1") {
-                    if let vc = segue.destination as? UITabBarController {
-                       vc.selectedIndex = 0
-                    }
-                }else{
-                    if let vc = segue.destination as? UITabBarController {
-                        vc.selectedIndex = 1
-                    }
-                }
+        let myButton = sender as? UIButton
+        let name = myButton?.titleLabel?.text
+        print(name)
+        if segue.identifier == "toOne" {
+            
+            if let vc = segue.destination as? UITabBarController {
+                vc.selectedIndex = 0
+            }
+        }else{
+            if let vc = segue.destination as? UITabBarController {
+                vc.selectedIndex = 1
             }
         }
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

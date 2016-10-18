@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="进入页面1"/>
                                 <connections>
-                                    <action selector="enter1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0aO-HK-Dy2"/>
+                                    <segue destination="h9J-Sl-2gR" kind="show" identifier="toOne" id="ylE-rT-q4J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvO-xW-Rzl">
@@ -31,15 +31,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="进入页面2"/>
                                 <connections>
-                                    <action selector="enter2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofn-Sd-v3c"/>
+                                    <segue destination="h9J-Sl-2gR" kind="show" identifier="toTwo" id="bkE-F2-4UN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <segue destination="h9J-Sl-2gR" kind="show" identifier="toTab" id="2cs-cm-Wgz"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -139,6 +136,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="bkE-F2-4UN"/>
         <segue reference="q7O-Fi-kXE"/>
     </inferredMetricsTieBreakers>
 </document>
