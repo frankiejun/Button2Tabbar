@@ -12,6 +12,7 @@
 		10DEDDFF1DB5C1FF004177D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDDFD1DB5C1FF004177D2 /* Main.storyboard */; };
 		10DEDE011DB5C1FF004177D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDE001DB5C1FF004177D2 /* Assets.xcassets */; };
 		10DEDE041DB5C1FF004177D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEDE021DB5C1FF004177D2 /* LaunchScreen.storyboard */; };
+		10DEDE4A1DB9ADF7004177D2 /* ItemOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEDE491DB9ADF7004177D2 /* ItemOneController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		10DEDE001DB5C1FF004177D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DEDE031DB5C1FF004177D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10DEDE051DB5C1FF004177D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DEDE491DB9ADF7004177D2 /* ItemOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemOneController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				10DEDDF91DB5C1FF004177D2 /* AppDelegate.swift */,
 				10DEDDFB1DB5C1FF004177D2 /* ViewController.swift */,
 				10DEDDFD1DB5C1FF004177D2 /* Main.storyboard */,
+				10DEDE491DB9ADF7004177D2 /* ItemOneController.swift */,
 				10DEDE001DB5C1FF004177D2 /* Assets.xcassets */,
 				10DEDE021DB5C1FF004177D2 /* LaunchScreen.storyboard */,
 				10DEDE051DB5C1FF004177D2 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DEDE4A1DB9ADF7004177D2 /* ItemOneController.swift in Sources */,
 				10DEDDFC1DB5C1FF004177D2 /* ViewController.swift in Sources */,
 				10DEDDFA1DB5C1FF004177D2 /* AppDelegate.swift in Sources */,
 			);

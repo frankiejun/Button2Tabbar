@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="1928.8" y="437.63118440779613"/>
         </scene>
-        <!--Item 1-->
+        <!--Item One Controller-->
         <scene sceneID="5gB-ef-EWc">
             <objects>
-                <viewController id="lFB-fu-wIL" sceneMemberID="viewController">
+                <viewController id="lFB-fu-wIL" customClass="ItemOneController" customModule="Button2Tabbar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y3a-A1-uQr"/>
                         <viewControllerLayoutGuide type="bottom" id="ctT-0e-OPg"/>
@@ -110,11 +110,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="38w-xK-hZ6"/>
+                    <navigationItem key="navigationItem" id="N2u-0w-vfZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7X3-gD-r03" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1928.8" y="-217.24137931034485"/>
+            <point key="canvasLocation" x="2836" y="-296.40179910044981"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rto-Fb-2JE">
@@ -126,17 +126,36 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="lFB-fu-wIL" kind="relationship" relationship="viewControllers" id="lYJ-Wq-NWn"/>
                         <segue destination="Xle-2I-i2Z" kind="relationship" relationship="viewControllers" id="0GE-Rj-IcA"/>
+                        <segue destination="ogf-cx-KDw" kind="relationship" relationship="viewControllers" id="54w-n1-vqk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YfM-Ni-5dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="977" y="111"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="68b-Lp-il6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ogf-cx-KDw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fGN-jb-ohm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XWV-mv-1xY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lFB-fu-wIL" kind="relationship" relationship="rootViewController" id="O2x-dB-v6C"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Udc-GQ-1KZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1896.8" y="-296.40179910044981"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="5QJ-Zl-4rY"/>
         <segue reference="bkE-F2-4UN"/>
-        <segue reference="q7O-Fi-kXE"/>
     </inferredMetricsTieBreakers>
 </document>
