@@ -15,14 +15,14 @@ class ItemOneController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //let titleView = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
         
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 44))
-        titleLabel.text = mytitle!
+        titleLabel.text = "hello"
         titleLabel.textAlignment = .center
         titleLabel.textColor = UIColor.green
-        //titleView.addSubview(titleLabel)
-        self.navigationItem.titleView = titleLabel
+       
+       //self.navigationItem.titleView = titleLabel
+        self.navigationItem.title = "hello1"
         // Do any additional setup after loading the view.
     }
 

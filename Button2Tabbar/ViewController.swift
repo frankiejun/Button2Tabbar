@@ -25,7 +25,13 @@ class ViewController: UIViewController {
         let name = myButton?.titleLabel?.text
         print(name)
         if segue.identifier == "toOne" {
-            
+//            if let tarc = segue.destination as? UITabBarController {
+//                tarc.selectedIndex = 1
+//                if let vc = tarc.viewControllers?[1] as? ItemOneController {
+//                    vc.mytitle = name
+//                }
+//            }
+
             if let bar = segue.destination as? UITabBarController {
                 bar.selectedIndex = 1
                 if let navc = bar.viewControllers?[1] as? UINavigationController {
